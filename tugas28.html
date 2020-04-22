@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Tugas CSS - NIOMIC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style media="screen">
+    body{
+    background-color: #333333;
+    padding:50px;
+    }
+    td{
+      width: 500px;
+      height: 30px;
+      color: white;
+      padding:5px;
+    }
+
+    .cek{
+      font-size: 13px;
+    }
+    span{
+      color: blue;
+    }
+
+  </style>
+</head>
+<body>
+  <form>
+  <table align="center">
+    <tr>
+      <td align="center"><img src="img/lampung.jpg" class="rounded-circle" alt="lampung" width="200px" height="150px"></td>
+    </tr>
+    <tr>
+      <td><label>Nama Lengkap</label></td>
+    </tr>
+    <tr>
+      <td>  <input type="text" class="form-control" placeholder="Nama Lengkap"></td>
+    </tr>
+    <tr>
+      <td><label>Alamat</label></td>
+    </tr>
+    <tr>
+      <td><textarea name="name" rows="3" cols="80" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <td><label>Alamat Email</label></td>
+    </tr>
+    <tr>
+      <td>  <input type="email" class="form-control" placeholder="Alamat Email (disabled)" disabled></td>
+    </tr>
+    <tr>
+      <td><label>Password</label></td>
+    </tr>
+    <tr>
+      <td>  <input type="Password" class="form-control" placeholder="Password" ></td>
+    </tr>
+    <tr>
+      <td><label>Scan KTP</label></td>
+    </tr>
+    <tr>
+      <td><input type="File" accept= "image/jpg"></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox"><label class="cek">  Saya setuju dan telah membaca <span>aturan</span> serta <span>ketentuan</span> yang berlaku</label></td>
+    </tr>
+    <tr>
+      <td><button type="submit" class=" btn btn-primary btn-block">Submit</button></td>
+    </tr>
+  </table>
+</form>
+</body>
+<html>
